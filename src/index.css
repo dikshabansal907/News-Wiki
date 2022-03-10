@@ -5,9 +5,116 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #e90c59; */
+  /* background-color:; */
 }
-
+.w-100{
+  height: 70vh;
+  margin-top: 0px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.spinner{
+  text-align: center;
+}
+.mainSection .heading{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #F08234;;
+}
+.mainSection .prevNextButtonsDiv{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.mainSection .prevNextButtonsDiv .gridButton{
+  /* width: 150px;
+  height: 30px;
+  border-radius: 10px; */
+  border: 1px solid transparent;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #F08234;
+  font-weight: 500;
+}
+a {
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: overline;
+  font-weight: bolder;
+  color: white;
+  /* border-top: 2px solid #F08234; */
+  /* background-color: #263238; */
+  /* border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px; */
+  /* opacity: 0.5; */
+}
+.grids{
+  border: 2px solid yellow;
+  border-radius:50px;
+  background-color: white;
+  height: 82vh;
+  /* width: 303px;
+  height: 489px; */
+}
+
+/* #F08234 */
+.grids:hover{
+  /* transform: scale(1.1); */
+  transform: translate(0%, 0px);
+  background-color: #263238;
+  /* opacity:0.75; */
+  border: #263238 1px solid;
+  transition: ease-in-out;
+  color: white;
+  
+}
+/* .grids .gridButton a:hover{
+  color:#F08234;
+} */
+.grids .gridButton{
+  width: 150px;
+  height: 30px;
+  /* margin-top: 70px; */
+  margin-bottom: 5px;
+  border-radius: 10px;
+  margin-left: 66px;
+  border: 1px solid yellow;
+  background-color: transparent;
+}
+.grids .gridButton a{
+  text-decoration: none;
+  /* color: #F08234; */
+  color:#F5BC53;
+  font-weight: 700;
+}
+.grids .gridImage{
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+
+}
+.grids .gridHeading{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.grids .gridDescription{
+  padding-left: 10px;
+}
+.grids .smallText:hover{
+  color: #F5BC53;
+}
+/* @media screen and (max-width:920px){
+  .gridContainers{
+    display:-inline-grid;
+    grid-template-columns:1fr 1fr ;
+  }
+} */

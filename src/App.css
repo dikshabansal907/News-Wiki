@@ -1,3 +1,8 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -12,7 +17,33 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+@media (min-width:500px) {
+  .mainSection .gridContainers{
+    grid-template-columns:1fr;
+  }
+}
+@media (max-width:600px ) {
+  .grids{
+    margin-left: 75px;
+  }
+}
+@media (max-width:500px ) {
+  .grids{
+    margin-left: 30px;
+  }
+}
+@media (min-width:600px) {
+  .mainSection .gridContainers{
+    grid-template-columns: repeat(2, 1fr);
+    /* background-color: red; */
+  }
+}
+@media (min-width: 900px) {
+  .mainSection .gridContainers { 
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: blue; */
+   }
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
