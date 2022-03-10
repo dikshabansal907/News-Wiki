@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/News-Wiki/static/css/main.913e0651.chunk.css",
+    "main.js": "/News-Wiki/static/js/main.7b1808c6.chunk.js",
+    "main.js.map": "/News-Wiki/static/js/main.7b1808c6.chunk.js.map",
+    "runtime~main.js": "/News-Wiki/static/js/runtime~main.14266260.js",
+    "runtime~main.js.map": "/News-Wiki/static/js/runtime~main.14266260.js.map",
+    "static/js/2.f215038c.chunk.js": "/News-Wiki/static/js/2.f215038c.chunk.js",
+    "static/js/2.f215038c.chunk.js.map": "/News-Wiki/static/js/2.f215038c.chunk.js.map",
+    "static/js/3.b019360d.chunk.js": "/News-Wiki/static/js/3.b019360d.chunk.js",
+    "static/js/3.b019360d.chunk.js.map": "/News-Wiki/static/js/3.b019360d.chunk.js.map",
+    "index.html": "/News-Wiki/index.html",
+    "precache-manifest.ff29be6b3c64b645d01692ab93a6d26b.js": "/News-Wiki/precache-manifest.ff29be6b3c64b645d01692ab93a6d26b.js",
+    "service-worker.js": "/News-Wiki/service-worker.js",
+    "static/css/main.913e0651.chunk.css.map": "/News-Wiki/static/css/main.913e0651.chunk.css.map",
+    "static/media/loading.gif": "/News-Wiki/static/media/loading.3dc6a4f5.gif",
+    "static/media/newspaper.jpeg": "/News-Wiki/static/media/newspaper.482abc5f.jpeg"
+  }
+}
