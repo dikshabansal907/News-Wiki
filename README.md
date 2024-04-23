@@ -1,6 +1,6 @@
 
 Project Description:
-⦁	It is an e-commerce news website.
+⦁	It is an e-commerce news website made using ReactJs.
 ⦁	It shows daily updated news . The user can filter his searches and can choose what kind of news he wants to see.(For ex- Technology,Science etc.)
  
  How to use the website?
